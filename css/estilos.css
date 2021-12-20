@@ -1,0 +1,93 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(../img/Fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-color: #c6c6bca4;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-shadow: 3px 0 #ffffff;
+}
+.header-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-jochi{
+    font-size: 50px;
+}
+
+.header-contenedor a{
+    color: rgb(105, 50, 194);
+    text-decoration: none;
+    font-family: 'Indie Flower';
+}
+
+.contenedor {
+    margin-top: 270px;
+    margin-bottom: 250px;
+    margin-left: 340px;
+    margin-right: 360px;
+    width: 45%;
+    height: 33em;
+    background-color: #6642aab9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5em;
+}
+.titulo{
+    margin-top: 20px;
+    font-family: 'Indie Flower',bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #ddb0f0;
+}
+
+button{
+    border-radius: 70%;
+    display: inline-flex;
+    border:5px solid rgb(36, 54, 221);
+    border-color: #3498db;
+    color: #fff;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;}
+button:hover {
+    outline: none;
+    background-color: #c402ff;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;  
+}
+
+.Seleccionar{
+    margin-top: 20px;
+    font-family: 'Indie Flower',bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #ddb0f0;
+    
+}
